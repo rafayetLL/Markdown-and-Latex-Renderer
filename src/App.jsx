@@ -17,36 +17,24 @@ Try typing some markdown or LaTeX below:
 - List item 1
 - List item 2
 
-## Math Examples:
+## Math Example:
 
-### Standard Delimiters:
-Using $ delimiters: $E = mc^2$
-
-Using \\( \\) delimiters: \\(E = mc^2\\)
-
-Block math with $$: 
-$$\\frac{a}{b} = c$$
-
-Block math with \\[ \\]:
-\\[\\frac{a}{b} = c\\]
-
-### Your Bengali Text:
-এখন, \\(\\frac{75}{360}\\) ভগ্নাংশটিকে লঘিষ্ঠ আকারে প্রকাশ করি: \\(\\frac{75}{360} = \\frac{15}{72} = \\frac{5}{24}\\)
-
-সুতরাং, ক্ষেত্রফল \\(= \\frac{5}{24} \\times \\pi \\times 196\\) বর্গ সে.মি.
-
-এখানে, \\(\\pi \\approx 3.1416\\) ধরে হিসাব করি: ক্ষেত্রফল \\(= \\frac{5}{24} \\times 3.1416 \\times 196\\) বর্গ সে.মি.
-
-\\(= \\frac{5 \\times 3.1416 \\times 196}{24}\\) বর্গ সে.মি.
-
-\\(= \\frac{3078.768}{24}\\) বর্গ সে.মি.
-
-\\(\\approx 128.282\\) বর্গ সে.মি.
-
-সুতরাং, নির্ণেয় বৃত্তাংশের ক্ষেত্রফল প্রায় ১২৮.২৮২ বর্গ সে.মি.।
-
-**উত্তর:** প্রায় ১২৮.২৮২ বর্গ সে.মি.
-`)
+$$ 
+\\begin{aligned}
+& \\text{সমাধান:} \\\\ 
+& a^4 + a^2b^2 + b^4 \\\\ 
+& = (a^2)^2 + 2a^2b^2 + (b^2)^2 - a^2b^2 \\\\ 
+& = (a^2+b^2)^2 - (ab)^2 \\\\ 
+& = (a^2+b^2+ab)(a^2+b^2-ab) \\\\ 
+& = (a^2+ab+b^2)(a^2-ab+b^2) \\\\ 
+& \\therefore 3 = 3(a^2-ab+b^2) \\quad [\\text{মান বসিয়ে}] \\\\ 
+& \\text{বা, } a^2-ab+b^2 = \\frac{3}{3} = 1 \\\\ 
+& \\text{এখন, } a^2+ab+b^2 = 3 \\text{ এবং } a^2-ab+b^2 = 1 \\\\ 
+& \\text{যোগ করে পাই, } 2(a^2+b^2) = 4 \\\\ 
+& \\text{বা, } a^2+b^2 = \\frac{4}{2} \\\\ 
+& \\therefore a^2+b^2 = 2
+\\end{aligned}
+$$`)
 
   return (
     <div className="app">
