@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "better-react-mathjax": "^2.3.0",
     "katex": "^0.16.22",
+    "markdown-it": "^14.1.0",
+    "markdown-it-mathjax3": "^4.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0",
     "rehype-katex": "^7.0.1",
+    "rehype-mathjax": "^7.1.0",
+    "remark-breaks": "^4.0.0",
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
